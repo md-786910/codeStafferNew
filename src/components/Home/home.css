@@ -1,0 +1,83 @@
+.serviceBtnHomePage {
+  font-weight: 600;
+}
+.homeImageBox {
+  width: 70% !important;
+}
+.homeImageBox img {
+  width: 100%;
+}
+.aboutImageBox {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.aboutImageBox img {
+  width: 60%;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: -8.5em;
+  left: -9em;
+}
+.serviceContentHome {
+  position: relative;
+  top: 0;
+}
+.serviceContentHome .serviceCoverHome {
+  position: absolute;
+  top: -50%;
+  transform: translateY(-30%);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.serviceContentHome .serviceTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 17em;
+  height: 17em;
+  border-radius: 50%;
+  background: linear-gradient(120deg, #fcc1ffb2 20.69%, #b1fcf9c1 79.69%);
+  border: 2px solid rgb(60, 0, 255);
+}
+
+.serviceHomeCardImg img {
+  width: 5em;
+  height: 5em;
+  background-color: white;
+  padding: 1em;
+  border-radius: 50%;
+}
+
+.rightBar {
+  border-right: 1px solid rgba(128, 128, 128, 0.712);
+}
+.projectBoxImageHome img {
+  width: 100%;
+}
+.review_title h3 {
+  background: linear-gradient(160deg, #fcc1ff 20.69%, #b1fcfa 79.69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+}
+
+.review_comments p {
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+}
+.ourRecentWorkHomeBox {
+  border-radius: 10px;
+  padding: 1em 10px;
+}
+.PartnerHomePage {
+  margin-top: 7em;
+}
+
+.partnerLogo img {
+  width: 50%;
+}
