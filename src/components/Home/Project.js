@@ -17,7 +17,7 @@ function Project() {
                         <Col lg={6}>
                             <div className="projectHomePage w-75 mx-auto">
                                 <div>
-                                    <h3>Web Development & Data Science</h3>
+                                    <h2>Web Development & Data Science</h2>
                                     <p>
                                         Ut vitae erat tempus, venenatis augue eu, placerat libero. Nunc interdum ligula sapien. Proin scelerisque nisi orci, at vulputate ligula sollicitudin ut. Maecenas porttitor magna non dictum blandit. Etiam interdum nunc sit amet lectus commodo sodales.
                                     </p>
@@ -35,7 +35,7 @@ function Project() {
                         <Col lg={6}>
                             <div className="projectHomePage w-75 mx-auto">
                                 <div>
-                                    <h3>UI and UX Deign</h3>
+                                    <h2>UI and UX Deign</h2>
                                     <p>
                                         Ut vitae erat tempus, venenatis augue eu, placerat libero. Nunc interdum ligula sapien. Proin scelerisque nisi orci, at vulputate ligula sollicitudin ut. Maecenas porttitor magna non dictum blandit. Etiam interdum nunc sit amet lectus commodo sodales.
                                     </p>

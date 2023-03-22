@@ -20,7 +20,7 @@ function About() {
                         <Col lg={6}>
                             <div className="aboutContent">
                                 <div>
-                                    <h3>About Us</h3>
+                                    <h2>About Us</h2>
                                     <p>
                                         Ut vitae erat tempus, venenatis augue eu, placerat libero. Nunc interdum ligula sapien. Proin scelerisque nisi orci, at vulputate ligula sollicitudin ut. Maecenas porttitor magna non dictum blandit. Etiam interdum nunc sit amet lectus commodo sodales.
                                     </p>

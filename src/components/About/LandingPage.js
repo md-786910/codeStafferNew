@@ -2,8 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import box from "../../assets/home/home1.png"
-import "./home.css";
-function Home() {
+function AboutLanding() {
     return (
         <section className="homePage">
             <div className="wrapper">
@@ -12,20 +11,11 @@ function Home() {
                         <Col lg={6}>
                             <div className="homeContent">
                                 <div>
-                                    <h3>Digital Agency</h3>
-                                    <h1>For Mindful Brands</h1>
-                                    <p>
-                                        Etiam tristique dictum purus ut dignissim. Donec ac neque
-                                        sit amet leo lobortis commodo eu at lectus.
-                                    </p>
-                                </div>
-                                <div className="serviceBtnHomePage d-flex gap-2 align-items-center" style={{ cursor: "pointer" }}>
-
-                                    <span><BsFillArrowRightCircleFill size={30} /></span>
-                                    <span>OUR SERVICES</span>
-
+                                    <h3>About Us</h3>
+                                    <h1>We do great things together</h1>
 
                                 </div>
+
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -41,4 +31,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default AboutLanding;

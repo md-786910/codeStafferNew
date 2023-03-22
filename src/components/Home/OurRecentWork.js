@@ -13,9 +13,9 @@ function OurRecentWork() {
                     <Row className="">
                         <Col lg={12}>
                             <div className="text-center ourWorkrecentHome">
-                                <h3>
+                                <h2>
                                     Our Recent Work
-                                </h3>
+                                </h2>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, vel?
                                 </p>

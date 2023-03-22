@@ -31,7 +31,7 @@ function Header({ data, page }) {
     return (
         <>
             <nav className={scroll ? "NavbarContainer nav-bg" : "NavbarContainer"}>
-                <div className="wrapper header-wrapper ">
+                <div className="wrapper header-wrapper">
                     <div className="NavbarItems">
                         <div className="navbar-logo">
                             <NavLink to="/">

@@ -15,7 +15,7 @@ function Services() {
                             <div className="py-4 serviceContentHome">
                                 <div className="serviceCoverHome">
                                     <div className="serviceTitle">
-                                        <h3>Our Services</h3>
+                                        <h2>Our Services</h2>
                                         <span className="text-center">
                                             {" "}
                                             Ut vitae erat tempus, voueoweuowe oewue owu

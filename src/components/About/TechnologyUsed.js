@@ -2,29 +2,27 @@ import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../../assets/home/partner.jpeg"
 
-function OurPartners() {
+function TechnologyUsed() {
     return (
         <section className="PartnerHomePage ">
             <div className="wrapper">
                 <Container fluid className="p-0">
-                    <Row >
+                    <Row className="align-items-center">
                         <Col lg={4}>
                             <div className="partnerTitle">
                                 <h2>
-                                    Our Partners
+                                    Technologies We are master in
                                 </h2>
-                                <p>
-                                    Etiam tristique dictum purus ut dignissim. Donec ac neque sit amet leo lobortis commodo eu at lectus.
-                                </p>
+
                             </div>
                         </Col>
                         <Col lg={8}>
                             <div className="partnerLogo">
-                                <Row style={{ textAlign: "right" }}>
+                                <Row className='text-center  align-items-center' style={{ border: "1px solid #8080802e" }}>
                                     {
-                                        [...new Array(9)].map((img, index) => {
+                                        [...new Array(15)].map((img, index) => {
                                             return (
-                                                <Col lg={4} className="mb-4">
+                                                <Col lg={4} className="py-4" style={{ width: "20%", border: "1px solid #8080802e" }} key={index}>
                                                     <div className="partnerLogo">
                                                         <img src={logo} alt="logo" />
                                                     </div>
@@ -46,4 +44,4 @@ function OurPartners() {
     )
 }
 
-export default OurPartners
+export default TechnologyUsed

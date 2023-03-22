@@ -5,17 +5,17 @@ function ProjectRating() {
     return (
         <section className="ProjectRatingPageHome mt-5">
             <div className="wrapper">
-                <Container fluid className="p-0">
+                <Container fluid className="text-center p-0">
 
-                    <Row className="justify-content-center" style={{ marginTop: "7em" }}>
-                        <Col lg={3} >
+                    <Row style={{ marginTop: "7em" }}>
+                        <Col lg={3} className="">
                             <div className="serviceHomeCardBox ">
                                 <div className="funFact_review_items">
                                     <div className="review_title">
-                                        <h3>
+                                        <h2>
                                             <CountUp end={3} duration={3} />
                                             +
-                                        </h3>
+                                        </h2>
                                     </div>
                                     <div className="review_comments">
                                         <p>Year of Success</p>
@@ -27,10 +27,10 @@ function ProjectRating() {
                             <div className="serviceHomeCardBox ">
                                 <div className="funFact_review_items">
                                     <div className="review_title">
-                                        <h3>
+                                        <h2>
                                             <CountUp end={432} duration={3} />
                                             +
-                                        </h3>
+                                        </h2>
                                     </div>
                                     <div className="review_comments">
                                         <p>Project Delivered</p>
@@ -42,10 +42,10 @@ function ProjectRating() {
                             <div className="serviceHomeCardBox ">
                                 <div className="funFact_review_items">
                                     <div className="review_title">
-                                        <h3>
+                                        <h2>
                                             <CountUp end={220} duration={3} />
                                             +
-                                        </h3>
+                                        </h2>
                                     </div>
                                     <div className="review_comments">
                                         <p>Regular Clients</p>
@@ -57,10 +57,10 @@ function ProjectRating() {
                             <div className="serviceHomeCardBox ">
                                 <div className="funFact_review_items">
                                     <div className="review_title">
-                                        <h3>
+                                        <h2>
                                             <CountUp end={736} duration={3} />
                                             +
-                                        </h3>
+                                        </h2>
                                     </div>
                                     <div className="review_comments">
                                         <p>positive Reviews</p>
