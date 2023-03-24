@@ -21,6 +21,16 @@
   padding-top: 8em;
   width: 100%;
 }
+.content-wrapper-serviceIndex {
+  margin: 3em 0;
+  padding: 3em 0;
+  background: linear-gradient(
+    120deg,
+    #fcc1ff6b 20.69%,
+    #b1fcf960 79.69%
+  ) !important;
+  width: 100%;
+}
 .footerPage {
   background: linear-gradient(
     120deg,

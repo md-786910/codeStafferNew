@@ -23,6 +23,7 @@
 .btn--primary {
   background: var(--primary);
 }
+
 .btn--outline {
   background: transparent;
   color: #000;

@@ -20,6 +20,18 @@
   top: -8.5em;
   left: -9em;
 }
+.serviceImageBox {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.serviceImageBox img {
+  width: 70%;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: -6em;
+}
 .serviceContentHome {
   position: relative;
   top: 0;
@@ -81,4 +93,17 @@
 
 .partnerLogo img {
   width: 70%;
+}
+
+.serviceIconBox {
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 50%;
+  background: linear-gradient(160deg, #fcc1ff 20.69%, #b1fcfa 79.69%);
+}
+.serviceIconBox img {
+  width: 1.5em;
 }
