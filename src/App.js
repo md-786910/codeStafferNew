@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import AboutPage from './page/AboutPage';
 import HomePage from './page/HomePage';
+import ServiceDetailPage from './page/ServiceDetailPage';
 import ServicePage from './page/ServicePage';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path="/" element={<HomePage metaHome={metaHome} />} />
         <Route path="/about-us" element={<AboutPage metaAbout={metaAbout} />} />
         <Route path="/services" element={<ServicePage metaService={metaService} />} />
+        <Route path="/services/:title" element={<ServiceDetailPage metaService={metaService} />} />
       </Routes>
       <Footer />
     </>

@@ -1,12 +1,32 @@
 .serviceBtnHomePage {
   font-weight: 600;
 }
+
+
 .homeImageBox {
   width: 70% !important;
 }
 .homeImageBox img {
   width: 100%;
 }
+.serviceExpImg {
+  width: 100% !important;
+}
+
+
+.serviceDetImageBox {
+  position: relative;
+  top: 0;
+  width: 86.6% !important;
+}
+.serviceDetImageBox img {
+  width: 100%;
+  position: absolute;
+  top: -10em;
+  left: -6em;
+}
+
+
 .aboutImageBox {
   position: relative;
   top: 0;
@@ -44,6 +64,19 @@
   justify-content: center;
   width: 100%;
 }
+
+.servicePageHome .serviceContentDet{
+  position: absolute;
+  top: -50%;
+  transform: translateY(-30%);
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+
+
+
 .serviceContentHome .serviceTitle {
   display: flex;
   align-items: center;
@@ -55,10 +88,29 @@
   background: linear-gradient(120deg, #fcc1ffb2 20.69%, #b1fcf9c1 79.69%);
   border: 2px solid rgb(60, 0, 255);
 }
+.serviceDetBussinessTitle{
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+  background: linear-gradient(120deg, #fcc1ffb2 20.69%, #b1fcf9c1 79.69%);
+}
+.norWordBreak{
+  position: relative;
+  left:30%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  word-wrap: normal;
+  max-width: 800px;
+  width: 1000px;
+}
 
 .serviceHomeCardImg img {
-  width: 5em;
-  height: 5em;
+  width: 4em;
+  height: 4em;
   background-color: white;
   padding: 1em;
   border-radius: 50%;
@@ -106,4 +158,48 @@
 }
 .serviceIconBox img {
   width: 1.5em;
+}
+
+
+/* brand service */
+.brandBox{
+  gap: 1em;
+  overflow: scroll;
+  overflow: hidden;
+  width: 100%;
+  animation: animate 13s linear  infinite 
+;
+}
+
+
+.brandItems span{
+  display: inline-block;
+  min-width: 10em;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.378);
+}
+
+
+.ServiceEndButton{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+
+
+@keyframes animate {
+  0%{
+    transform: translateX(0%);
+  }
+
+  50%{
+    transform: translateX(-30%);
+
+  }
+  100%{
+    transform: translateX(30%);
+
+  }
 }
