@@ -3,6 +3,7 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import AboutPage from './page/AboutPage';
+import ContactPage from './page/ContactPage';
 import HomePage from './page/HomePage';
 import ServiceDetailPage from './page/ServiceDetailPage';
 import ServicePage from './page/ServicePage';
@@ -12,6 +13,7 @@ function App() {
   const metaAbout = "About | Elite"
   const metaHome = "Home| Elite"
   const metaService = "Service| Elite"
+  const metaContact = "Contact| Elite"
 
 
 
@@ -35,6 +37,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage metaHome={metaHome} />} />
         <Route path="/about-us" element={<AboutPage metaAbout={metaAbout} />} />
+        <Route path="/contacts" element={<ContactPage metaContact={metaContact} />} />
         <Route path="/services" element={<ServicePage metaService={metaService} />} />
         <Route path="/services/:title" element={<ServiceDetailPage metaService={metaService} />} />
       </Routes>
