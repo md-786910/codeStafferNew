@@ -12,6 +12,7 @@ export const Button = ({
     buttonStyle,
     buttonSize,
     btnHeader,
+    fullWidth,
     url,
 }) => {
     const checkButtonStyle = STYLES.includes(buttonStyle)
@@ -23,7 +24,7 @@ export const Button = ({
     // click methods
     return (
         <button
-            className={`btn1 btn-sm ${btnHeader} ${checkButtonStyle} ${checkButtonSize}`}
+            className={`btn1 btn-sm ${btnHeader} ${checkButtonStyle} ${fullWidth} ${checkButtonSize}`}
             href={url}
             type={type}
             onClick={onClick}
