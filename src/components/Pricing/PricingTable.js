@@ -112,7 +112,7 @@ function PricingTable() {
                             })
                         }
                         <Col lg={3} className="mb-4" style={{ width: "21%", }}>
-                            <div className="pricingBox" style={{ height: "199vh" }} >
+                            <div className="pricingBox1" style={{ height: "199vh" }} >
                                 <div className="pricingGarentyBox">
                                     <h3 className="text-center">Multi-site &
                                         Custom Plans</h3>
