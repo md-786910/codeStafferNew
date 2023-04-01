@@ -7,6 +7,8 @@ const useContentful = () => {
         host: process.env.REACT_APP_CONTENTFUL_HOST,
     });
 
+
+
     const getHome = async () => {
         try {
             const entries = await client.getEntries({
@@ -24,7 +26,46 @@ const useContentful = () => {
             console.error(err);
         }
     };
-    return { getHome };
+    const getServicesLanding = async () => {
+        try {
+            const entries = await client.getEntries({
+                content_type: "services",
+                select: "fields",
+            });
+
+            return entries;
+        } catch (err) {
+            console.error(err);
+        }
+    };
+    const getServiceIndex = async () => {
+        try {
+            const entries = await client.getEntries({
+                content_type: "serviceIndex",
+                select: "fields",
+            });
+
+            return entries;
+        } catch (err) {
+            console.error(err);
+        }
+    };
+    const getServiceDetail = async () => {
+        try {
+            const entries = await client.getEntries({
+                content_type: "serviceDetail",
+                select: "fields",
+            });
+
+            return entries;
+        } catch (err) {
+            console.error(err);
+        }
+    };
+
+
+
+    return { getHome, getServiceIndex, getServiceDetail, getServicesLanding };
 };
 
 export default useContentful;

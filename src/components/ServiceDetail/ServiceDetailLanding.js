@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 import { Container, Row, Col } from "react-bootstrap";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import box from "../../assets/service/ser1.png";
 
-function ServiceDetailLanding() {
+import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
+
+function ServiceDetailLanding({ heading, image }) {
   return (
     <section className="homePageDetailPage mb-5">
       <div className="wrapper">
@@ -12,8 +14,11 @@ function ServiceDetailLanding() {
           <Row style={{ padding: "4em 0" }} className="flex-row-reverse">
             <Col lg={8}>
               <div className="homeContent">
-                <h3>Get customizable templates for your </h3>
-                <h1>For Mindful Brands</h1>
+                <div>
+                  {
+                    documentToReactComponents(heading)
+                  }
+                </div>
               </div>
 
               <div

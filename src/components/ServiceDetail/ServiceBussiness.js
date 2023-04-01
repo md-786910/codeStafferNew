@@ -30,7 +30,6 @@ function ServiceBussiness() {
             </Col>
             <Row style={{ marginTop: "10em" }}>
               {[...new Array(3)].map((i, index) => {
-                console.log(index);
                 return (
                   <Col
                     lg={4}
