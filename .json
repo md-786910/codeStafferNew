@@ -1,0 +1,270 @@
+{
+    "priceGuarant": [
+        {
+            "guarantee": "30-Day Guarantee"
+        },
+        {
+            "guarantee": "Platform Agnostic"
+        },
+        {
+            "guarantee": "24/7 Security Team"
+        }
+    ],
+    "priceText": [
+        {
+            "s": "Site covered"
+        },
+        {
+            "s": "Malware & hack removals by our security experts."
+        },
+        {
+            "s": "Malware Removal SLA"
+        },
+        {
+            "s": "Post-cleanup basic report"
+        },
+        {
+            "s": "Frequency of advanced security scans"
+        },
+        {
+            "s": "Website Application Firewall (WAF)"
+        },
+        {
+            "s": "Blocklist Monitoring & Removal"
+        },
+        {
+            "s": "SSL Support & Monitoring"
+        },
+        {
+            "s": "Stop Hacks (Virtual Patching/Hardening)"
+        },
+        {
+            "s": "Firewall Protection – HTTPS & PCI compliant"
+        },
+        {
+            "s": "Advanced DDoS Mitigation"
+        },
+        {
+            "s": "CDN Speed Enhancement"
+        },
+        {
+            "s": "High Availability/Load Balancing"
+        },
+        {
+            "s": "CMS & Hosting Compatibility"
+        },
+        {
+            "s": "Support Requests"
+        }
+    ],
+    "priceData": [
+        {
+            "title": "Basic Platform",
+            "description": "Perfect for bloggers and small site owners requiring occasional cleanups with ongoing security scans.",
+            "price": "299.99",
+            "dataShow": [
+                {
+                    "icon": false,
+                    "text": "1"
+                },
+                {
+                    "icon": false,
+                    "text": "unlimited"
+                },
+                {
+                    "icon": false,
+                    "text": "30hrs"
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": false,
+                    "text": "Every 12 hrs"
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": false,
+                    "text": "Agnostic"
+                },
+                {
+                    "icon": false,
+                    "text": "Ticket"
+                }
+            ]
+        },
+        {
+            "title": "Premium Platform",
+            "description": "Perfect for bloggers and small site owners requiring occasional cleanups with ongoing security scans.",
+            "price": "299.99",
+            "dataShow": [
+                {
+                    "icon": false,
+                    "text": "1"
+                },
+                {
+                    "icon": false,
+                    "text": "unlimited"
+                },
+                {
+                    "icon": false,
+                    "text": "30hrs"
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": false,
+                    "text": "Every 12 hrs"
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": false,
+                    "text": "Agnostic"
+                },
+                {
+                    "icon": false,
+                    "text": "Ticket"
+                }
+            ]
+        },
+        {
+            "title": "Pro Platform",
+            "description": "Perfect for bloggers and small site owners requiring occasional cleanups with ongoing security scans.",
+            "price": "299.99",
+            "dataShow": [
+                {
+                    "icon": false,
+                    "text": "1"
+                },
+                {
+                    "icon": false,
+                    "text": "unlimited"
+                },
+                {
+                    "icon": false,
+                    "text": "30hrs"
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": false,
+                    "text": "Every 12 hrs"
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": true
+                },
+                {
+                    "icon": false,
+                    "text": "Agnostic"
+                },
+                {
+                    "icon": false,
+                    "text": "Ticket"
+                }
+            ]
+        }
+    ],
+    "customPlan": [
+        {
+            "title": "Multi-site & Custom Plans",
+            "description": "Perfect for bloggers and small site owners requiring occasional cleanups with ongoing security scans.",
+            "price": "price upon request",
+            "call": "Call: 1–888–873–0817",
+            "dataShow": [
+                {
+                    "text": "Site covered"
+                },
+                {
+                    "text": "Malware Removal SLA"
+                },
+                {
+                    "text": "Post-cleanup basic report"
+                },
+                {
+                    "text": "CDN Speed Enhancement"
+                },
+                {
+                    "text": "Support Requests"
+                }
+            ]
+        }
+    ]
+}

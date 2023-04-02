@@ -62,10 +62,22 @@ const useContentful = () => {
             console.error(err);
         }
     };
+    const getPricing = async () => {
+        try {
+            const entries = await client.getEntries({
+                content_type: "pricing",
+                select: "fields",
+            });
+
+            return entries;
+        } catch (err) {
+            console.error(err);
+        }
+    };
 
 
 
-    return { getHome, getServiceIndex, getServiceDetail, getServicesLanding };
+    return { getHome, getServiceIndex, getServiceDetail, getServicesLanding, getPricing };
 };
 
 export default useContentful;
