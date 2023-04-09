@@ -8,7 +8,7 @@ function Project() {
     <section className="ProjectHomePage">
       <div className="wrapper1">
         <Container fluid className="p-0">
-          <Row className="align-items-center">
+          <Row className="align-items-center mb-5">
             <Col lg={6}>
               <div className="projectBoxImageHome">
                 <img src={ser1} className="img-size" alt="box" />
@@ -32,7 +32,7 @@ function Project() {
               </div>
             </Col>
           </Row>
-          <Row className="mt-5 align-items-center">
+          <Row className="align-items-center">
             <Col lg={6}>
               <div className="projectHomePage w-75 mx-auto">
                 <div>
