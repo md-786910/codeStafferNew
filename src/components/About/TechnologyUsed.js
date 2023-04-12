@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../../assets/home/partner.jpeg"
 
-function TechnologyUsed() {
+function TechnologyUsed({ tech }) {
     return (
         <section className="PartnerHomePage ">
             <div className="wrapper">
@@ -13,18 +13,17 @@ function TechnologyUsed() {
                                 <h2>
                                     Technologies We are master in
                                 </h2>
-
                             </div>
                         </Col>
                         <Col lg={8}>
                             <div className="partnerLogo">
                                 <Row className='text-center  align-items-center' style={{ border: "1px solid #8080802e" }}>
                                     {
-                                        [...new Array(15)].map((img, index) => {
+                                        tech?.map((img, index) => {
                                             return (
                                                 <Col lg={4} className="py-4" style={{ width: "20%", border: "1px solid #8080802e" }} key={index}>
                                                     <div className="partnerLogo">
-                                                        <img src={logo} alt="logo" />
+                                                        <img src={img?.fields?.image?.fields?.file?.url} alt="logo" />
                                                     </div>
                                                 </Col>
                                             )
@@ -34,12 +33,9 @@ function TechnologyUsed() {
 
                             </div>
                         </Col>
-
                     </Row>
-
                 </Container>
             </div>
-
         </section>
     )
 }

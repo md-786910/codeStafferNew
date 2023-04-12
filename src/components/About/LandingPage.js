@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import box from "../../assets/home/home1.png";
+import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
-function AboutLanding() {
+function AboutLanding({ image, heading }) {
     return (
         <section className="homePage">
             <div className="wrapper">
@@ -10,15 +11,14 @@ function AboutLanding() {
                     <Row>
                         <Col lg={6}>
                             <div className="homeContent">
-                                <div>
-                                    <h3>About Us</h3>
-                                    <h1>We do great things together</h1>
-                                </div>
+                                {
+                                    documentToReactComponents(heading)
+                                }
                             </div>
                         </Col>
                         <Col lg={6}>
                             <div className="homeImageBox">
-                                <img src={box} className="img-size" alt="box" />
+                                <img src={image && image?.fields?.file?.url} className="img-size" alt="box" />
                             </div>
 
                         </Col>

@@ -74,10 +74,21 @@ const useContentful = () => {
             console.error(err);
         }
     };
+    const getAbout = async () => {
+        try {
+            const entries = await client.getEntries({
+                content_type: "aboutPage",
+                select: "fields",
+            });
+            return entries;
+        } catch (err) {
+            console.error(err);
+        }
+    };
 
 
 
-    return { getHome, getServiceIndex, getServiceDetail, getServicesLanding, getPricing };
+    return { getHome, getServiceIndex, getServiceDetail, getServicesLanding, getPricing, getAbout };
 };
 
 export default useContentful;

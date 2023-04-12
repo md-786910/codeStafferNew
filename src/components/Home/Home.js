@@ -17,7 +17,6 @@ function Home() {
         // eslint-disable-next-line
     }, []);
 
-    console.log(home);
 
     return (
         <section className="homePage">
